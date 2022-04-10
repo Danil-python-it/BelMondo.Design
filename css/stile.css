@@ -389,6 +389,9 @@ footer{
 	.three_arti{
 		height: calc((var(--height_cont)*7)+3vh);
 	}
+	.four_arti{
+		height:85vh;
+	}
 	.DarkSlite{
 		background-color: var(--color_main_project_background_nomer-two);
 		color: var(--color_main_project_text_nomer-two);
@@ -409,5 +412,17 @@ footer{
 		width: 90%;
 		height: 30%;
 	}
-	
+	.form , .info_about{
+		display: block;
+		border: 1px solid white;
+		margin: 0 auto;
+		height: 45%;
+		border-radius: 0;
+		width: 100%;
+	}
+	.container_for_form{
+		height:100%;
+		margin: 3% 0;
+		background-color: white;
+	}
 }
