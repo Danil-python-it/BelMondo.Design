@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/stile.css">
+	<link rel="stylesheet" href="css/AdaptiveStyle.css">
 	<title>BelMondo.Design</title>
 </head>
 <body id="body">
@@ -141,22 +142,27 @@
 				</div>
 				
 			</article>
-			<article id="three">
-				<h1 style="margin-bottom: -3vw;">ЗАКАЗАТЬ ЗВОНОК</h1>
-				<div class="information">
-					<h2 style="font-size: 1.2vw;">Как с нами связаться</h2>
-					<hr class="promej">
-					<p class="icon_text"><img src="img/phone-31172.svg" alt="" class="icon">-8(999)-999-99-99</p>
-					<p class="icon_text"><img src="img/letter-147563.svg"si alt="" class="icon">-VolkovStroi@mail.ru</p>
-					<hr class="promej">
-					<h2 style="font-size: 1.2vw">Заказать звонок</h2>
-					<form action="scripts-js-php/sendemail.php" method="post">
-						<input type="text" pattern placeholder="имя">
-						<input type="tel" placeholder="+7-(999)-999-99-99">
-						<input type="email" placeholder="Xfkfjd@mail.ru">
-						<input type="submit" value="Отправить">
-					</form>
-					<hr class="promej">
+			<article id="three" class="four_arti">
+				<div class="container_for_form">
+					<div class="info_about">
+						<h2>Позвонить самим</h2>
+						<div class="contant">
+							<p><b>Наши номера:</b></p>
+							<p>8999999999</p>
+							<p>8979979797</p>
+							<p><b>Наш емаил:</b></p>
+							<p>kkkmk@mail.ru</p>
+						</div>
+					</div>
+					<div class="form">
+						<h2>Заказать звонок</h2>
+						<form action="scripts-js-php/sendemail.php" method="post">
+							<input type="text" placeholder="имя">
+							<input type="tel" placeholder="8-9999999999">
+							<input type="email" placeholder="KO@mail.ru">
+							<input type="submit" value="отправить">
+						</form>
+					</div>
 				</div>
 			</article>
 			<div class="main_infoObject_block" id="window_panel">
@@ -180,6 +186,9 @@
 				<p id="text_information"></p>
 			</div>
 		</main>
+		<footer>
+			
+		</footer>
 	<script src="scripts-js-php/sliders_in_windows.js"></script>
 	<script src="scripts-js-php/sliders.js"></script>
 </body>
