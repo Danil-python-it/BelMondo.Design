@@ -30,6 +30,9 @@ body{
 	margin: 1.6%;
 	height: 2%;
 }
+.four_arti{
+	height: 55vh;
+}
 
 header{
 	padding-bottom: 0.5%;
@@ -221,52 +224,15 @@ h1{
 	color: var(--color_main_project_text_nomer-two);
 	cursor: pointer;
 }
-.information{
-	margin-top: 5vw;
-	width: 25vw;
-	height: 13vw;
-	text-align: center;
-	left: 22vw;
-	margin-left: 37vw;
-	margin-right: 37vw;
-	margin-bottom: 2vw;
-	font-size: 1vw;
 
-}
-.icon{
-	vertical-align: middle;
-	width: 1.5vw;
-	height: 1.5vw;
-}
-.promej{
-	border: 1px rgb(33, 104, 138) solid;
-	width: 4vw;
-
-}
-input{
-	padding: 0.2vw 0.1vw;
-	margin: 1vw auto;
-	font-size: 1vw;
-	display: block;
-	
-}
-form{
-	height: 10vw;
-	width: 25vw;
-	right: 22vw;
-	margin-left: 37vw;
-	text-align: center;
-	width: 20vw;
-	margin: 1px auto;
-}
 .main_infoObject_block{
 	background-color: var(--color_main_window);
 	width: 80%;
-	height: 80%;
-	margin: 2vw auto;
+	height: 100%;
+	margin: 0 auto;
 	position: fixed;
 	z-index: 3;
-	top: 6%;
+	top: 0;
 	left: 10%;
 	right: 10%;
 	display: none;
@@ -337,29 +303,44 @@ form{
 	margin-top: 0.2vw;
 	left:20.2vw;
 }
-footer{
+.container_for_form{
+	text-align: center;
+	height: 90%;
 	width: 100%;
-	margin-top: 2vw;
-	background-color: black;
-	
+	margin-top: 3%;
+	background-color: rgba(0, 0, 0, 0.315);
 }
-.btn_up{
-	font-size: 1vw;
-	color: rebeccapurple;
-	position: absolute;
-	left: 1vw;
-	margin: 0.3vw;
-	padding: 0.5vw 1vw;
-	border: 1px solid rebeccapurple;
-}
-.footer_menu li{
-	text-decoration: none;
+.form , .info_about{
 	display: inline-block;
-	margin-left: 2vw;
-	margin-top: 1vw;
+	border: 1px solid brown;
+	border-radius: 10%;
+	width: 22%;
+	margin: 3% 5% 6% 5%;
+	height: 80%;
+	text-align: center;
+	background-color: white;
+	vertical-align: middle;
 }
-.footer_menu li a{
-	font-size: 1vw;
+
+form,.contant{
+	width: 80%;
+	height: 70%;
+	margin: 3% auto;
+
+}
+input{
+	width: 80%;
+	padding-left: 6%;
+	margin: 5% auto;
+	height: 20%;
+	font-weight: 700;
+	display: block;
+}
+footer{
+	width: 101%;
+	height: 10vh;
+	background-color: black;
+	bottom: 0;
 }
 @media (max-width:425px){
 	body{
@@ -377,6 +358,10 @@ footer{
 	.two_zone , .three_zone,.two-items, .three-items{
 		width: 100%;
 		display: block;
+	}
+	.main_header_info{
+		top: 10vh;
+
 	}
 	.two-items{
 		height: calc(var(--height_cont)*2);
