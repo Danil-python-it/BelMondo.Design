@@ -72,7 +72,6 @@ v.addEventListener("click",left);
 Функция создания кнопки, создаёт кнопку по необходимому нам принципу
 	:param: ButtonID int - порядковый айди для нашей кнопушки
 	:param: ImageURL string - URL, который будет отображать кнопка
-	
 */
 function CreateButton(ButtonID, ImageURL) {
 	//Берём базу кнопки и сразу заполняет ID и URL, полученный функцией
